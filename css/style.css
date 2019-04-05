@@ -1,0 +1,109 @@
+Body{
+  font-style: oblique;
+  background-color:lightgrey;
+}
+form{
+  color: #757575;
+}
+
+
+.nav{
+  position:fixed;
+  width:100%;
+  z-index: 30;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width:32%;
+}
+
+.navbarwhite{
+  background-color: white;
+}
+.square{
+  width:10vw;
+  height: auto;
+}
+.content{
+  width:100%;
+  max-width: 1200px;
+  margin: auto;
+  background-color: white;
+  padding: 10% 5%;
+  transform: translateY(-220px);
+
+}
+.flexHome{
+  display: flex;
+  flex-direction: row;
+}
+.flexHome p{
+font-size: 35%;
+width: 70%;
+margin-right: 5%;
+margin-top: 5%;
+}
+.flexHome img{
+font-size: 35%;
+width: 50%;
+height: 50%;;
+}
+.flexwrap{
+  display: flexwrap;
+}
+.myBtn{
+  padding:0;
+}
+.icons{
+  width:24px;
+}
+.myFooter{
+  width:100%;
+  margin-top: 30px;
+  padding-top: 10px;
+  background-color: white;
+  transform: translateY(200px);
+}
+.materialContact{
+  padding: 10px;
+  text-align: left;
+}
+.text-center{
+  text-align: center;
+}
+#berlinHome{
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+  border: 0;
+  width:100%;
+}
+
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
