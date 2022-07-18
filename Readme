@@ -1,7 +1,9 @@
 ## Berlin- Sightseeing
 
-This Project is an exercise on HTML and Responsive library for CSS, Bootstrap.
+This Project is a UI design with HTML and the responsive library for CSS "Bootstrap".
 
 
 ### Features
-UI is Responsive thanks to Bootstrap CSS. The website contains 3 different pages: Landing/Home page, contact page, and news. The content is not finished.
+The website contains 3 different pages: Landing/Home page, contact page, and news. 
+The content is borrowed from Berlin.de. 
+UI is mostly Responsive thanks to Bootstrap CSS and @Media.
